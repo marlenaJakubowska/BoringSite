@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(../pictures/backgroundimage.jpg) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+}
+body {
+    font-family: Garamond, monospace;
+    font-weight: 100;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
+
+header .content {
+    position: relative;
+    top: 300px;
+}
+
+header h1 {
+    color: #fff;
+    line-height: 100px;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+header p {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+nav {
+    background: #000;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul li {
+
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s;
+}
+
+nav ul li:hover {
+    background: #117bff;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+main .content {
+    margin: 60px auto;
+}
+
+main img {
+    float: left;
+    margin: 5px 60px 40px 10px;
+}
+
+

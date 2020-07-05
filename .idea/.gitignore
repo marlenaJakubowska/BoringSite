@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/BoringSite.iml
+/codeStyles/codeStyleConfig.xml
+/jsLibraryMappings.xml
+/vcs.xml
+/modules.xml
+/misc.xml
